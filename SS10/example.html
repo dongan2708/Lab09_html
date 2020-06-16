@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Tags Example</title>
+</head>
+<body>
+   <h1>Form Tags Example</h1>
+   <form action="">
+       <p>What did you think of this book?</p>
+       <textarea id="comments" cols="30" rows="10"></textarea>
+       <p>Please select your favorite genre:</p>
+       <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+       <input type="radio" name="genre" value="pop"/>Pop
+       <input type="radio" name="genre" value="jazz">Jazz
+       <p>Please select your favorite music service(s):</p>
+       <input type="checkbox" name="service" value="iTunes">iTunes
+       <input type="checkbox" name="service" value="spotify">Spotify
+       <input type="checkbox" name="service" value="lastfm">Last.fm
+       <p>What device do you  listen to music on</p>
+       <select name="device" multiple="multiple">
+           <option value="ipod">iPod</option>
+           <option value="ipad">iPad</option>
+           <option value="radio">Radio</option>
+           <option value="pc">Computer</option>
+       </select>
+       <p>Upload your song in MP3 format:</p>
+       <input type="file" name="song"> <br>
+       <input type="submit" value="Upload">
+
+       <filedset>
+           <legend>Contact Details</legend>
+           <label for="email"> Email:</label>
+           <input type="email" id="email"> <br>
+           <label for="mobile">Mobile:</label>
+           <input type="mobile" id="mobile"> <br>
+           <label for="tel">Telephone:</label>
+           <input type="text" id="tel">
+       </filedset>
+       <h2>Search</h2>
+       <input type="search" name="search">
+
+   </form>
+</body>
+</html>
